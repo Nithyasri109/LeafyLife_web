@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  margin: 0;
+  background-image: url("https://i.pinimg.com/1200x/be/fb/d0/befbd0539a0e27d9d184203b669de751.jpg");
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.login-card {
+  width: 380px;
+  background: #d3eeda;
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.logo {
+  color: #266c52;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #080d08;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2f8f46;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #2f8f46;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #256f37;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  font-size: 13px;
+}
+
+.links span {
+  color: #2f8f46;
+  cursor: pointer;
+}
+
+.links span:hover {
+  text-decoration: underline;
+}
+
+.back {
+  margin-top: 15px;
+  color: #2f8f46;
+  cursor: pointer;
+  font-size: 14px;
+}
